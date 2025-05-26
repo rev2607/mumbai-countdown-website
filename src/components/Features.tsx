@@ -1,32 +1,26 @@
 
 import React from 'react';
-import { Heart, Truck, Shield, Droplets } from 'lucide-react';
+import { Heart, Truck, Sparkles } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
-      icon: Shield,
-      title: "Quality Guaranteed",
-      description: "We ensure all our meals are freshly prepared with the highest quality ingredients.",
+      icon: Heart,
+      title: "Home Style Cooking",
+      description: "Our meals are prepared with love and care, just like you would make at home.",
       color: "text-green-500"
     },
     {
-      icon: Heart,
-      title: "Sanitized Cooking Practices",
-      description: "Our meals are prepared with strict hygiene and sanitization protocols.",
-      color: "text-red-500"
-    },
-    {
-      icon: Droplets,
-      title: "Quality Oil Used",
-      description: "We use only the finest quality oil in all our cooking preparations.",
-      color: "text-blue-500"
-    },
-    {
       icon: Truck,
-      title: "Affordable meals at reasonable prices",
+      title: "Free Home Delivery",
       description: "We provide free Home Delivery within CBD Belapur Sector 11 to 15, 19 to 23, 29 to 31.",
       color: "text-orange-500"
+    },
+    {
+      icon: Sparkles,
+      title: "Guaranteed Fresh Food",
+      description: "We ensure that all our meals are freshly prepared and delivered to you.",
+      color: "text-blue-500"
     }
   ];
 
@@ -43,7 +37,7 @@ const Features = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => {
             const IconComponent = feature.icon;
             return (
