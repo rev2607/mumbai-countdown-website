@@ -25,7 +25,7 @@ const Features = () => {
     {
       icon: Truck,
       title: "Affordable meals at reasonable prices",
-      description: "Introductory offer price 59/-",
+      description: "Introductory offer price 59/- only",
       color: "text-orange-500"
     }
   ];
