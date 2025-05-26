@@ -22,8 +22,9 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold text-gray-800 mb-2">Location</h3>
             <p className="text-gray-600 text-sm">
-              Coming Soon to<br />
-              Mumbai, Maharashtra
+              Shop 2, Plot Y5, Sector 19,<br />
+              Shahbaaz Gaon, CBD Belapur,<br />
+              Navi Mumbai 400614
             </p>
           </div>
           
@@ -33,8 +34,7 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold text-gray-800 mb-2">Phone</h3>
             <p className="text-gray-600 text-sm">
-              +91 XXX-XXX-XXXX<br />
-              (Available Soon)
+              +91 8108-325-444
             </p>
           </div>
           
@@ -44,8 +44,7 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold text-gray-800 mb-2">Email</h3>
             <p className="text-gray-600 text-sm">
-              info@gharkakhana.com<br />
-              (Coming Soon)
+              info@neelamghar.com
             </p>
           </div>
           
@@ -55,8 +54,9 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold text-gray-800 mb-2">Business Hours</h3>
             <p className="text-gray-600 text-sm">
-              Mon - Sat: 11AM - 9PM<br />
-              (When We Launch)
+              Monday to Saturday<br />
+              Day Delivery: 11AM - 1:30PM<br />
+              Night Delivery: 7PM - 9:30PM
             </p>
           </div>
         </div>

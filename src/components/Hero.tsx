@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
@@ -11,12 +10,11 @@ const Hero = () => {
       
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-4">
-            Ghar-Ka-Khana
-          </h1>
-          <p className="text-orange-600 text-lg font-medium tracking-wide">
-            Neelam's Restaurant
-          </p>
+          <img 
+            src="/lovable-uploads/354b9008-2638-45cf-b01b-2b0ff8ede7aa.png" 
+            alt="Ghar-Ka-Khana Neelam's" 
+            className="mx-auto mb-4 max-w-md w-full h-auto"
+          />
         </div>
         
         <div className="bg-orange-500 text-white px-8 py-4 rounded-full inline-block mb-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
@@ -35,22 +33,6 @@ const Hero = () => {
             and made with love - just like your mother's cooking. Get ready for delicious 
             homemade meals delivered right to your doorstep in Mumbai.
           </p>
-        </div>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
-            size="lg" 
-            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
-          >
-            Notify Me When We Launch
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-orange-500 text-orange-500 hover:bg-orange-50 px-8 py-3 text-lg font-semibold rounded-full"
-          >
-            Learn More
-          </Button>
         </div>
       </div>
     </section>

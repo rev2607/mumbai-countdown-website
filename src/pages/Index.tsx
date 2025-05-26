@@ -2,8 +2,6 @@
 import React from 'react';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
-import ComingSoon from '@/components/ComingSoon';
-import Newsletter from '@/components/Newsletter';
 import Contact from '@/components/Contact';
 
 const Index = () => {
@@ -11,8 +9,6 @@ const Index = () => {
     <div className="min-h-screen">
       <Hero />
       <Features />
-      <ComingSoon />
-      <Newsletter />
       <Contact />
       
       {/* Footer */}
@@ -20,7 +16,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="mb-4">
             <h3 className="text-xl font-bold text-orange-400">Ghar-Ka-Khana</h3>
-            <p className="text-gray-400">Neelam's Restaurant</p>
+            <p className="text-gray-400">Neelam's</p>
           </div>
           <p className="text-gray-400 text-sm">
             © 2025 Neelam Ghar Ka Khana. All rights reserved.
