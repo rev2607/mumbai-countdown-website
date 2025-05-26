@@ -1,31 +1,31 @@
 
 import React from 'react';
-import { Heart, Truck, Shield } from 'lucide-react';
+import { Shield, Award, Droplets } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
-      icon: Heart,
-      title: "Home Style Cooking",
-      description: "Our meals are prepared with love and care, just like you would make at home.",
-      color: "text-red-500"
-    },
-    {
-      icon: Truck,
-      title: "Free Home Delivery",
-      description: "We provide free home delivery within Mumbai. Fresh meals delivered to your doorstep.",
+      icon: Shield,
+      title: "Quality",
+      description: "Guaranteed quality in every meal we prepare with carefully selected ingredients.",
       color: "text-orange-500"
     },
     {
-      icon: Shield,
-      title: "Quality Guaranteed",
-      description: "We ensure all our meals are freshly prepared with the highest quality ingredients.",
-      color: "text-green-500"
+      icon: Droplets,
+      title: "Sanitized",
+      description: "Cooking Practices that ensure hygiene and safety in every step of preparation.",
+      color: "text-blue-500"
+    },
+    {
+      icon: Award,
+      title: "Quality",
+      description: "Oil Used is of the highest quality to ensure healthy and tasty meals.",
+      color: "text-orange-500"
     }
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section id="features" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -57,6 +57,16 @@ const Features = () => {
               </div>
             );
           })}
+        </div>
+        
+        {/* Free Home Delivery Section */}
+        <div className="mt-16 text-center bg-orange-50 rounded-2xl p-8">
+          <h3 className="text-2xl font-bold text-gray-800 mb-4">
+            Free Home Delivery
+          </h3>
+          <p className="text-lg text-gray-700">
+            We provide free Home Delivery within CBD Belapur Sector 11 to 15, 19 to 23, 29 to 31.
+          </p>
         </div>
       </div>
     </section>
