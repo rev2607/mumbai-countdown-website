@@ -2,6 +2,7 @@
 import React from 'react';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
+import WhyChoose from '@/components/WhyChoose';
 import Contact from '@/components/Contact';
 
 const Index = () => {
@@ -9,6 +10,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Hero />
       <Features />
+      <WhyChoose />
       <Contact />
       
       {/* Footer */}
