@@ -20,7 +20,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="mb-4">
             <h3 className="text-xl font-bold text-orange-400">Ghar-Ka-Khana</h3>
-            <p className="text-gray-400">from Neelam's</p>
+            <p className="text-gray-400">Neelam's Restaurant</p>
           </div>
           <p className="text-gray-400 text-sm">
             © 2025 Neelam Ghar Ka Khana. All rights reserved.
