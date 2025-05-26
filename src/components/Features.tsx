@@ -25,7 +25,7 @@ const Features = () => {
     {
       icon: Truck,
       title: "Affordable meals at reasonable prices",
-      description: "We provide free Home Delivery within CBD Belapur Sector 11 to 15, 19 to 23, 29 to 31.",
+      description: "Introductory offer price 59/-",
       color: "text-orange-500"
     }
   ];
