@@ -19,7 +19,7 @@ const Hero = () => {
         
         <div className="bg-orange-500 text-white px-8 py-4 rounded-full inline-block mb-8 shadow-lg transform hover:scale-105 transition-transform duration-300">
           <h2 className="text-2xl md:text-3xl font-bold">
-            LAUNCHING SOON in Mumbai
+            LAUNCHING SOON in Navi Mumbai
           </h2>
         </div>
         
